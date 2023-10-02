@@ -156,7 +156,7 @@ function onAccessApproved(stream) {
     if (!recorder) return console.log('No recorder')
     recorder.stop()
     let a = document.createElement('a')
-    a.href = 'http://localhost:5173/'
+    a.href = 'http://localhost:3001/'
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
