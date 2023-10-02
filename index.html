@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Screen Recording Extension</title>
+</head>
+<body style="padding: 0 1rem; width: 13rem; min-width: 300px; position: relative;">
+    <div class="layout" id="content1">
+      <header style="display: flex; justify-content: space-between; align-items: center;">
+  
+        <div class="header-wrapper" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+          <img class="logo" src="./images/icon32.png" alt="logo" />
+          <h2 class="header-text" >HelpMeOut</h2>
+        </div>
+    
+        <div class="setting-wrapper" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+          <img class="settings-img" src="./images/setting-2.png" alt="setting icon" />
+          <img class="close-img" src="./images/close-circle.png" alt="close button icon" />
+        </div>
+    
+      </header>
+      <p class="info-text">This extension helps you record and share help videos with ease.</p>
+
+      <div class="screen-tab-wrapper">
+  
+        <div class="full-screen-wrapper">
+          <img class="full-screen-logo" src="./images/monitor.png" alt="monitor logo" />
+          <h2 class="full-screen-text" >Full screen</h2>
+        </div>
+    
+        <div class="tab-wrapper" >
+          <img class="tab-img" src="./images/copy.png" alt="copy icon" />
+          <h2 class="tab-text" >Current Tab</h2>
+        </div>
+    
+      </div>
+
+    <div class="camera-wrapper">
+        <div class="camera-section">
+            <img class="camera-icon" src="./images/video-camera.png" alt="video camera icon" />
+            <h3 class="camera-text">Camera</h3>
+        </div>
+        <div class="camera-button">
+            <button type="button" id="button"><img class="button-icon" src="./images/Button.png" alt="button icon" /></button>
+        </div>
+    </div>
+    <div class="audio-wrapper">
+        <div class="audio-section">
+            <img class="audio-icon" src="./images/microphone.png" alt="audio icon" />
+            <h3 class="audio-text">Audio</h3>
+        </div>
+        <div class="audio-button">
+            <button type="button" id="audio-button"><img class="audio-icon" src="./images/Button.png" alt="audio icon" /></button>
+        </div>
+    </div>
+    <button id="record-start-button" class="recording-wrapper"><h2 class="recording-text">Start Recording</h2></button>
+</div>
+
+<script src="index.js">
+</script>
+</body>
+</html>
